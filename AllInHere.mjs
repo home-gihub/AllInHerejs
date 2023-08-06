@@ -4,6 +4,7 @@ console.log('AllInHere.js, a very simple way to not have to touch index.html and
 // Get the functions we need from App.js
 import * as app from "./App.js"
 // Initalize the root div element
+AIHRootElement = ""
 AIHRootElement = document.createElement('div')
 AIHRootElement.id = "App"
 document.body.appendChild(AIHRootElement)
