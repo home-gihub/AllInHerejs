@@ -2,7 +2,7 @@
 console.log('AllInHere.js, a very simple way to not have to touch index.html and just code in js')
 
 // Get the functions we need from App.js
-import * as app from "./App.js"
+import * as app from "App.js"
 // Initalize the root div element
 document.body.innerHTML = '<div id="App"></div>'
 // Add the contents from the Init function in App.js
