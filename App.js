@@ -1,5 +1,5 @@
 export function App() {
-    var counter = 0
+    counter = 0
     function count() {
         counter++
         document.getElementById('counter').innerHTML = `count is ${counter}`
