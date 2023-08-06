@@ -8,6 +8,6 @@ export function App() {
 }
 
 export function Init() {
-    Body = "<h1>it is just all in here</h1>"
+    let Body = "<h1>it is just all in here</h1>"
     return Body;
 }
