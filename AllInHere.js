@@ -1,5 +1,9 @@
 // AllInHere.js, a very simple way to not have to touch index.html and just code in js
 console.log('AllInHere.js, a very simple way to not have to touch index.html and just code in js')
+// so you can refresh all of the interactive content
+function Refresh() {
+    document.getElementById("App").innerHTML = App().Body
+}
 // Null fix
 const fix = document.createElement('div');
 document.body.appendChild(fix);
