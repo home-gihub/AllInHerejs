@@ -6,14 +6,13 @@ the index.html sould just be a blank page with nothing in the `<body>` in the `<
 in your website folder make a new file the contents of it should be
 ```
 function App() {
-
-}
-
-function Init() {
-    let Body = ''
-    return Body;
+    
+    
+    return {
+        Body: ''
+    }
 }
 ```
-the `App()` function stores all of your code, the `Init()` function defines a `Body` variable, that will be the content of your website, it will be contained in a `<div>` with an id of `App`, if you want to have variables define them out of the `App()` function
+the `App()` function stores all of your code, and the function returns a `Body` variable, that will be the content of your website, it will be contained in a `<div>` with an id of `App`, if you want to have variables define them out of the `App()` function
 ## including your scripts
 before you added the `AllInHere.js` script add your scripts
