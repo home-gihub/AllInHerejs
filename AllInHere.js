@@ -6,7 +6,7 @@ document.body.appendChild(fix);
 // Initalize the root div element
 document.body.innerHTML = '<div id="App"></div>'
 // Add the contents from the Init function
-document.getElementById("App").innerHTML = Init()
+document.getElementById("App").innerHTML = App().Body
 // Run the scripts in the App function
 App()
 // We are all done here
