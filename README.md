@@ -1,7 +1,7 @@
 # AllInHerejs
 a very simple way to not have to touch index.html and just code in js
 ## index.html
-the index.html sould just be a blank page with nothing in the `<body>` in the `<head>` add the `AllInHere.js` script
+the index.html sould just be a blank page with nothing in the `<body>` in the `<body>` add the `AllInHere.js` script
 ## Your Scripts
 in your website folder make a new file the contents of it should be
 ```
