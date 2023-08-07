@@ -10,11 +10,9 @@
                     counter++
                     document.getElementById('count').innerHTML = `count is ${counter}`
             }
-        }
-
-        function Body() {
-                let Body = '<p>AllInHere.js</p> <button onclick="add()" id="count">count is 0</button>'
-                return Body;
+            return {
+                Body: '<p>AllInHere.js</p> <button onclick="add()" id="count">count is 0</button>'
+            }
         }
     </script>
     <script src="./AllInHere.js"></script>
