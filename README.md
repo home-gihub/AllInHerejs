@@ -10,9 +10,8 @@ function App() {
 }
 
 function Init() {
-    return (
-        <p>test</p>
-    );
+    let Body = ''
+    return Body;
 }
 ```
 the `App()` function stores all of your code, the `Init()` function defines a `Body` variable, that will be the content of your website, it will be contained in a `<div>` with an id of `App`, if you want to have variables define them out of the `App()` function
