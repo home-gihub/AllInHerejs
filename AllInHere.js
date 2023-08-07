@@ -1,4 +1,4 @@
-console.log('AllInHere.js ----------)
+console.log('AllInHere.js ----------')
 // so you can refresh all of the interactive content
 function Refresh() {document.getElementById("App").innerHTML = App().Body}
 // Null fix
