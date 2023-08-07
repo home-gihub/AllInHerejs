@@ -6,15 +6,15 @@
     <title>document</title>
 </head>
 <body>
-    <script>
+   <script>
         counter = 0
+        add = function() {
+            counter++
+            Refresh()
+        }
         function App() {
-            function add() {
-                    counter++
-                    document.getElementById('count').innerHTML = `count is ${counter}`
-            }
             return {
-                Body: '<p>AllInHere.js</p> <button onclick="add()" id="count">count is 0</button>'
+                Body: `<p>AllInHere.js</p> <button onclick="add()" id="count">count is ${counter}</button>`
             }
         }
     </script>
