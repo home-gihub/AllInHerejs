@@ -4,20 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>document</title>
+        <noscript>
+    Javascript is disabled.
+    <meta HTTP-EQUIV="REFRESH" content="0; url=./noscript.html"> 
+     </noscript>
 </head>
 <body>
    <script>
-        counter = 0
-        add = function() {
-            counter++
-            Refresh()
-        }
-        function App() {
-            return {
-                Body: `<p>AllInHere.js</p> <button onclick="add()" id="count">count is ${counter}</button>`
-            }
-        }
+        window.location = './index.html'
     </script>
-    <script src="./AllInHere.js"></script>
 </body>
 </html>
