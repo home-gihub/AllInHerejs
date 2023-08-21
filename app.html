@@ -1,0 +1,20 @@
+<html>
+  <head>
+    <title>app</title>
+  </head>
+  <body>
+    <script>
+        counter = 0
+        add = function() {
+            counter++
+            Refresh()
+        }
+        function App() {
+            return {
+                Body: `<p>AllInHere.js</p> <button onclick="add()" id="count">count is ${counter}</button>`
+            }
+        }
+    </script>
+    <script src="./AllInHere.js"></script>
+  </body>
+</html>
